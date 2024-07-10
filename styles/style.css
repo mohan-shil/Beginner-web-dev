@@ -250,3 +250,20 @@ input[type="text"]{
     margin-bottom: 24px;
     border: none;
 }
+
+/* footer styles ----------------------------------- */
+
+footer{
+    background-color: rgb(255, 245, 232);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+}
+.footer-title{
+    font-weight: 200;
+    color: #474747;
+}
+.sites{
+    gap: 100px;
+}
