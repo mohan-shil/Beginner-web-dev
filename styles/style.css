@@ -187,3 +187,66 @@ a{
     color: black;
     font-weight: 600;
 }
+
+/* Support section styles  */
+
+.handshake{
+    width: 1320px;
+    height: 360px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+}
+
+.support-title{
+    position: absolute;
+    color: white;
+    top: 3610px;
+    left: 40%;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+
+}
+.support-description{
+    position: absolute;
+    color: rgb(239, 237, 237);
+    top: 3700px;
+    left: 30%;
+    font-size: 15px;
+
+}
+.support-input{
+    position: absolute;
+    color: rgb(239, 237, 237);
+    top: 3750px;
+    left: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+.submit-btn{
+    font-size: 16px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 120px;
+    padding: 10px 20px;
+    margin-left: 24px;
+    border: none;
+    font-weight: bold;
+
+
+}
+input[type="text"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 300px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
