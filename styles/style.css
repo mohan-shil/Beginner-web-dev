@@ -153,3 +153,37 @@ nav{
     height: 500px;
     padding: 30px;
 }
+
+/* Current traget Section style */
+.current-target{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.html{
+    background-color: rgb(250, 250, 244);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.css{
+    background-color: rgb(255, 240, 243);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.js{
+    background-color: rgb(235, 255, 248);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.current-description{
+    width: 70%;
+    color: gray;
+}
+a{
+    color: black;
+    font-weight: 600;
+}
