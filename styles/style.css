@@ -15,7 +15,7 @@
     font-size: 20px;
     border-radius: 10px;
     padding: 3px 45px;
-    color: #474747;
+    color: grey;
 
 }
 .secondary-color{
@@ -75,6 +75,7 @@ nav{
     transform: translate(-50%,-50%);
     width: 60%;
     text-align: center;
+    color: gray;
 }
 .contact-btn{
     font-size: 16px;
@@ -92,9 +93,11 @@ nav{
 
 /* Main Section styles ---------------------------- */
 
-main{
-    background-color: #ffeeeb;
-    margin: 10;
+.main-section{
+    background-color: #fff6f4;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 .main-title{
     font-size: 30px;
@@ -104,7 +107,49 @@ main{
 .main-description{
     font-size: 14px;
     text-align: center;
+    color: grey;
+    margin: 0 250px ;
+}
+
+/* bento section  */
+
+.bento-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 50px 200px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.bento-title{
     color: #474747;
-    margin: 0 250px 25px ;
-    padding-bottom: 100px;
+    font-size: 20px;
+    width: 45%;
+}
+.bento-description{
+    color: grey;
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 6%;
+}
+.bento-btn{
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 35px;
+    color: grey;
+}
+.bento-img-2{
+    margin-right: 70px;
+}
+.bento-title-2{
+    color: #474747;
+    font-size: 20px;
+    width: 69%;
+}
+.iframe{
+    margin: 70px;
+    border: solid rgb(197, 197, 197);
+    border-radius: 15px;
+    height: 500px;
+    padding: 30px;
 }
